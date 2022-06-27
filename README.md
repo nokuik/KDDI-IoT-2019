@@ -7,7 +7,7 @@ if you use the dataset, you must agree to the terms of dataset license below.
 
 ### Overview
 
-The KDDI-IoT-2019 dataset contains ZIP files for each device in the ipfix directory.
+The KDDI-IoT-2019 dataset contains GZ files for each device in the ipfix directory.
 IoT devices are listed in the table below. 
 Extracting the GZ file outputs a JSON file that contains IPFIX records. (Some GZ files are split.) 
 We generated IPFIX records by YAF[^1] from PCAP files and converted IPFIX binary to JSON file by Super Mediator[^2]. We used the following commands.
@@ -24,7 +24,7 @@ We generated IPFIX records by YAF[^1] from PCAP files and converted IPFIX binary
 [^1]: YAF: https://tools.netsa.cert.org/yaf/index.html
 [^2]: Super Mediator: https://tools.netsa.cert.org/super_mediator/index.html
 
-### Dataset Speficication
+### Dataset Specification
 
 #### IoT devices
 
@@ -60,7 +60,7 @@ We generated IPFIX records by YAF[^1] from PCAP files and converted IPFIX binary
 - Qrio Lock (Door lock) was connected to Qrio Hub.
 - Phillips Hue Light was connected to Philips Hue Bridge.
 
-#### Dataset period
+#### Packet capture period
 
 6/25/2019 - 10/10/2019 (108 days)
 
